@@ -3,7 +3,7 @@ Algoritmo SumaPares
     
     SumaDePares <- 0
     
-    Escribir "Introduce el número final hasta el que deseas sumar"
+    Escribir "Introduce el nÃºmero final hasta el que deseas sumar"
     Leer NumeroDado
     
     Para Contador <- 1 Hasta NumeroDado
@@ -12,5 +12,5 @@ Algoritmo SumaPares
         FinSi
     FinPara
 	
-    Escribir "La suma de los números pares es: ", SumaDePares
+    Escribir "La suma de los nÃºmeros pares es: ", SumaDePares
 FinAlgoritmo
