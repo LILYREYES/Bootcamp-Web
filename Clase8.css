@@ -1,0 +1,117 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  header {
+    background: #f90;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  #card1{
+    border: 2px solid:#0033cc;
+    border-radius:5px;
+    box-shadow: 1px 1px 5px 5px #222;
+    width: 100px;
+    height: 50px; }
+
+  header h1 {
+    margin: 0;
+  }
+  #search {
+    padding: 5px;
+    align-tracks: right;
+  }
+  nav {
+    background: #0033cc;
+    color: white;
+    padding: 10px;
+  }
+  nav a {
+    color: white;
+    display: block;
+    margin: 5px 0;
+    text-decoration: none;
+  }
+  main {
+    display:flex;
+  }
+  aside.left {
+    width: 16%;
+    padding: 0px;
+    position:initial;
+    margin-top: .5%;
+    margin-left: .5%;
+    margin-bottom: 50%;
+    background: rgb(150, 199, 238);
+  }
+  section.content {
+    width: 0%;
+    padding: 0px;
+  }
+  .contenido-naranja {
+    background-color: #ecb591;
+    padding: 10px;
+    position: relative;
+    margin-bottom: 0%; 
+    margin-top: 29%;
+    margin-left: -16%;
+    width: 15%;
+  }
+  .card-naranja a {
+    position: relative;
+    margin-bottom: 0px;
+  }  
+  aside.bottom {
+    width: 0%;
+    padding: 0px;
+  }
+  .card3 {
+    border-radius: 3px;
+    box-shadow: 0px 0px 5px 5px #550bae;
+    width: 200px;
+    height: 150px;
+    margin-top: 1%;
+    margin-left: 65%;
+}
+   .card4 {
+    border-radius: 3px;
+    box-shadow: 0px 0px 5px 5px #550bae;
+    width: 200px;
+    height: 150px;
+    margin-top: 30%;
+    margin-left: -13%;
+}
+  footer {
+    background: #eee;
+    text-align: left;
+    padding: 10px;
+    font-size: 0.9em;
+  }
+  footer2 {
+    background: #eee;
+    text-align: center;
+    padding: 10px;
+    font-size: 0.9em;
+  }
+  .article {
+    display: flex;
+    text-size-adjust: unset;
+    margin-bottom: 60px;
+    margin-top: 5px;
+
+  }
+  .article img {
+    width: 100px;
+    height: 100px;
+    background: #ccc;
+    margin-right: 30px;
+    margin-top: 50px;
+  }
+  .article h2 {
+    margin: 0 0 10px 0;
+    margin-top: 60px;
+  }
+  

@@ -1,0 +1,39 @@
+/* Selector por etiqueta */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #eafbea;
+    margin: 0;
+    padding: 0;
+}
+
+/* Selector por ID */
+#main-header {
+    background-color: #2e7d32;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* Selector por clase */
+.producto {
+    background-color: white;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 10px;
+    width: 80%;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.producto img {
+    width: 100%;
+    max-width: 300px;
+    display: block;
+    margin: 10px auto;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #c8e6c9;
+    color: #2e7d32;
+}
