@@ -1,0 +1,50 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #e6f5e6;
+  padding: 2rem;
+  color: #2e4d2e;
+}
+
+h1, h2 {
+  color: #2f7d32;
+}
+
+input {
+  display: block;
+  margin: 10px 0;
+  padding: 10px;
+  width: 250px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #388e3c;
+}
+
+.oculto {
+  display: none;
+}
+
+.error-msg {
+  color: red;
+}
+
+.success-msg {
+  color: green;
+}
+
+#apiResultado {
+  margin-top: 1rem;
+  background-color: #ffffff;
+  border: 1px solid #c8e6c9;
+  padding: 1rem;
+}
