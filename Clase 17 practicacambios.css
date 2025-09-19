@@ -1,0 +1,59 @@
+/* Selector por etiqueta */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #eafbea;
+    margin: 0;
+    padding: 0;
+}
+
+/* Color normal del enlace */
+a {
+    color: rgb(27, 177, 35);
+    text-decoration: underline;
+}
+
+/* Selector por ID */
+#main-header {
+    background-color: #2e7d32;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* Selector por clase */
+.producto {
+    background-color: white;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 10px;
+    width: 80%;
+    box-shadow: 0 4px 8px rgb(55, 14, 240);
+
+    font-weight: bold;   /* Negrita */
+    font-style: italic;  /* Cursiva */ color: rgb(62, 23, 202); 
+}
+
+/* Selector por ID */
+#header {
+    color: rgb(198, 17, 17);
+    text-align: center;
+    padding: 10px 0;
+}
+
+#miravideo {
+    color: rgb(30, 230, 140);
+    padding: 10px;
+    text-align: center;
+}
+.producto img {
+    width: 100%;
+    border-radius: 50%;
+    display: block;
+    margin: 10px auto;
+}
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #c8e6c9;
+    color: #2e7d32;
+}

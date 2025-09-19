@@ -1,0 +1,35 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  padding: 2rem;
+}
+
+h1 {
+  color: #333;
+}
+
+button {
+  padding: 10px 20px;
+  margin-bottom: 1rem;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+#listaUsuarios {
+  list-style: none;
+  padding: 0;
+}
+
+#listaUsuarios li {
+  background-color: #9dd2e6;
+  padding: 10px;
+  margin: 5px 0;
+  border-left: 4px solid #007bff;
+}

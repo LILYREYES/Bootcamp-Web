@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login Verde 🌿</title>
+  <link rel="stylesheet" href="ambiental.css">
+</head>
+<body>
+
+  <div id="login-container">
+    <h1>🌎 Iniciar Sesión - Portal Verde</h1>
+    <input type="text" id="login-usuario" placeholder="Usuario ecológico">
+    <input type="password" id="login-password" placeholder="Contraseña">
+    <button id="btnLogin">Ingresar</button>
+    <p id="login-error" class="error-msg"></p>
+    <button id="mostrarRegistro">¿Nuevo? Regístrate 🌱</button>
+  </div>
+
+  <div id="registro-container" class="oculto">
+    <h2>Registro Ambiental</h2>
+    <input type="text" id="registro-usuario" placeholder="Nombre de usuario">
+    <input type="password" id="registro-password" placeholder="Contraseña">
+    <input type="number" id="registro-edad" placeholder="Edad">
+    <button id="btnRegistrar">Registrar</button>
+    <p id="registro-msg" class="success-msg"></p>
+  </div>
+
+  <div id="contenido" class="oculto">
+    <h2 id="bienvenida"></h2>
+    <button id="btnGet">Obtener Consejos Ambientales (GET)</button>
+    <button id="btnPost">Compartir Acción Ecológica (POST)</button>
+    <div id="apiResultado"></div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+  <script src="ambiental.js"></script>
+</body>
+</html>
